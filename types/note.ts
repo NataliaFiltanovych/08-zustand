@@ -12,3 +12,5 @@ export interface NewNoteBody {
   content: string;
   tag: "Todo" | "Work" | "Personal" | "Meeting" | "Shopping";
 }
+
+export type Tags = "Todo" | "Work" | "Personal" | "Meeting" | "Shopping";
