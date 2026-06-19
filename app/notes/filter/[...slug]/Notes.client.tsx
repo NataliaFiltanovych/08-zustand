@@ -10,8 +10,6 @@ import Pagination from "../../../../components/Pagination/Pagination";
 import Loader from "@/components/Loader/Loader";
 import ErrorMessage from "@/components/ErrorMessage/ErrorMessage";
 import NoteList from "@/components/NoteList/NoteList";
-import Modal from "@/components/Modal/Modal";
-import NoteForm from "@/components/NoteForm/NoteForm";
 import { useDebouncedCallback } from "use-debounce";
 import Link from "next/link";
 
